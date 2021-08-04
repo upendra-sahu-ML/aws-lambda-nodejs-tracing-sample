@@ -4,6 +4,7 @@ This sample application is a Lambda function that processes events from an API G
 
 :warning: The application creates a public API endpoint that is accessible over the internet. When you're done testing, run the cleanup script to delete it.
 
+![Architecture](/images/sample-nodejs-apig.png)
 
 The project source includes function code and supporting resources:
 
