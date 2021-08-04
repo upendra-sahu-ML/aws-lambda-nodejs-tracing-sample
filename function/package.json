@@ -1,0 +1,10 @@
+{
+  "name": "aws-lambda-nodejs-tracing-sample",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "aws-sdk": "2.631.0",
+    "sf-apm-lib": "^1.0.0",
+    "elastic-apm-node": "^3.17.0"
+  }
+}
