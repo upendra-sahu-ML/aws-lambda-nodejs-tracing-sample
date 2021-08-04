@@ -15,7 +15,7 @@ The project source includes function code and supporting resources:
 Use the following instructions to deploy the sample application.
 
 # Requirements
-- [Node.js 10 with npm](https://nodejs.org/en/download/releases/)
+- [Node.js 12 with npm](https://nodejs.org/en/download/releases/)
 - The Bash shell. For Linux and macOS, this is included by default. In Windows 10, you can install the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to get a Windows-integrated version of Ubuntu and Bash.
 - [The AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) v1.17 or newer.
 
@@ -53,7 +53,7 @@ To deploy the application, run `2-deploy.sh`.
 This script uses AWS CloudFormation to deploy the Lambda functions and an IAM role. If the AWS CloudFormation stack that contains the resources already exists, the script updates it with any changes to the template or function code.
 
 # Configure ENV variables
-Configure These env variable in AWS lambda
+Configure these env variables in AWS lambda
 - PROJECT_NAME: Name of the project in SnappyFlow
 - APP_NAME: Name of the application in SnappyFlow
 - SF_PROFILE_KEY: Key copied from SnappyFlow Profile
